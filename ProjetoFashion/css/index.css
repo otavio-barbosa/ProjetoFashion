@@ -1,0 +1,146 @@
+body {
+    font-family: tahoma, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.header-top {
+    background-color: rgb(8, 4, 44);
+    height: 50px;
+    position: relative;
+}
+
+.header-logo {
+    margin: 5px 0 0 135px;
+}
+
+.header-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0 15px 0 0;
+    padding: 13px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: rgb(124, 121, 121);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    transition: color .3s linear;
+}
+
+.header-nav a:hover {
+    color: white;
+}
+
+.img-top {
+    width: 100%;
+    height: 70%;
+}
+
+.portifolio {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.portifolio h1 {
+    font-size: 36px;
+    color: rgb(8, 4, 44);
+}
+
+.portifolio p {
+    font-size: 16px;
+    line-height: 2;
+    color: rgb(131, 132, 134);
+}
+
+.gallery {
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-card {
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.gallery-title {
+    color:rgb(8, 4, 44);
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+    
+.gallery-text {
+    color: rgb(182, 178, 178);
+    font-size: 15px;
+}
+
+.about {
+    background-color: #003d52;
+    padding: 100px;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2 {
+    color: rgb(233, 223, 223);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about p {
+    color: rgb(204, 199, 190);
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact {
+    margin: 50px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    font-size: 20px;
+    text-align: center;
+    color: #143f52;
+}
+
+#maps {
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+
+#maps iframe {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    color:#6f8597; 
+    letter-spacing: 5px; 
+    background-color: #0b171f;
+    padding: 25px;
+    margin-top: 5px;
+}
